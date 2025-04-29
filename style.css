@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: #fff8f0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .border-frame {
@@ -11,6 +11,7 @@ body {
   border: 10px solid #b30000;
   min-height: 100vh;
   box-sizing: border-box;
+  overflow: auto;
 }
 
 .spotlight {
