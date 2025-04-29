@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Open Recruitment Karang Taruna RW 08</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Halaman Utama -->
+  <div class="main-page">
+    <div class="border-frame">
+      <div class="spotlight"></div>
+      <div class="container">
+        <h1 class="main-title">OPEN RECRUITMENT</h1>
+        <h2 class="sub-title">Panitia HUT - RI 80</h2>
+        <div class="rw-box">Bergerak Menjadi Indonesia Maju</div>
+        
+        <h3>Persyaratan Anggota:</h3>
+        <ul class="requirements">
+          <li>Bertanggung jawab tinggi - Mampu menyelesaikan tugas tepat waktu dan dapat diandalkan.</li>
+          <li>Mampu bekerja dalam tim - Siap bekerja sama, mendengarkan pendapat, dan saling membantu sesama panitia.</li>
+          <li>Memiliki komitmen waktu - Bersedia meluangkan waktu selama proses persiapan hingga kegiatan berlangsung.</li>
+          <li>Komunikatif dan aktif - Aktif berdiskusi dan tidak ragu memberikan ide maupun masukan.</li>
+          <li>Memiliki pengalaman organisasi (nilai plus) - Tidak wajib, tetapi pengalaman sebelumnya akan sangat membantu.</li>
+        </ul>
+
+        <div class="button-group">
+          <a class="cta-button division" id="divisionBtn" href="#">Divisi</a>
+          <a class="cta-button" id="daftarBtn" href="#">Daftar Sekarang</a>
+          <a class="cta-button guidebook" id="guidebookBtn" href="#" target="_blank">Guidebook</a>
+        </div>
+      </div>
+
+      <div class="stamp-box">
+        <span class="stamp-text">EXTENDED</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Halaman Divisi (awalnya disembunyikan) -->
+  <div class="division-page" style="display: none;">
+    <div class="border-frame">
+      <div class="spotlight"></div>
+      <div class="container">
+        <h2 class="main-title">Penjelasan Divisi</h2>
+        <ul class="requirements">
+          <li><strong>Event Management :</strong> proses perencanaan, pengorganisasian, pelaksanaan, dan evaluasi sebuah acara untuk mencapai tujuan tertentu.</li>
+          <li><strong>Creative & Design :</strong> membuat konsep dan desain kreatif untuk berbagai kebutuhan, mulai dari pemasaran, branding, hingga produk visual.</li>
+          <li><strong>Finance :</strong> mengelola keuangan perusahaan, termasuk mencatat transaksi, menyusun laporan keuangan, mengelola kas dan piutang, serta memproses pembayaran. </li>
+          <li><strong>Video Documentation :</strong> mengumpulkan dan menyimpan berbagai bentuk catatan, informasi, dan bukti kegiatan, baik berupa dokumen tertulis, foto, video, atau media lain.</li>
+          <li><strong>Logistic :</strong> bertanggung jawab atas perencanaan, pengadaan, penyimpanan, distribusi, dan pengembalian barang atau jasa.</li>
+        </ul>
+        <div class="button-group">
+          <a class="cta-button" id="backBtn" href="#">Kembali</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script>
+    document.getElementById('divisionBtn').addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector('.main-page').style.display = 'none';
+      document.querySelector('.division-page').style.display = 'block';
+    });
+
+    document.getElementById('backBtn').addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector('.division-page').style.display = 'none';
+      document.querySelector('.main-page').style.display = 'block';
+    });
+
+    document.getElementById('daftarBtn').addEventListener('click', function(e) {
+      e.preventDefault();
+      window.open('https://docs.google.com/forms/d/e/1FAIpQLSffqNYvs8njiF8f_L66fi-TXcBKOX92CzRcHJIEC1F6DzeO9g/viewform?usp=dialog', '_blank');
+    });
+
+    document.getElementById('guidebookBtn').addEventListener('click', function(e) {
+      e.preventDefault();
+      window.open('https://drive.google.com/file/d/1DUMMYGUIDEBOOKLINK/view', '_blank');
+    });
+  </script>
+</body>
+</html>
