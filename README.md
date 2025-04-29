@@ -25,7 +25,7 @@ Ini adalah landing page sederhana dan responsif untuk **open recruitment panitia
 ├── index.html         # Halaman utama (landing page)
 ├── style.css          # File CSS utama untuk styling
 ├── divisi.html        # Halaman penjelasan divisi yang dimuat dinamis
-└── README.md          # Dokumentasi proyek ini
+└── Script.js          # menambahkan fitur-fitur
 ```
 
 ---
