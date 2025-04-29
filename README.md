@@ -2,7 +2,7 @@ LINK WEB : https://ffaawwaazz.github.io/ETS-PWEB/
 
 # ETS-PWEB
 
-# Open Recruitment Panitia HUT RI 80 - RW 08 Surabaya
+# Open Recruitment Panitia HUT RI 80 - Surabaya
 
 Ini adalah landing page sederhana dan responsif untuk **open recruitment panitia Hari Ulang Tahun Republik Indonesia ke-80** yang diadakan oleh **Karang Taruna RW 08, Surabaya**. Halaman ini dibuat dengan **HTML, CSS, dan JavaScript m** tanpa framework tambahan, agar ringan dan mudah dijalankan langsung dari browser.
 
