@@ -1,5 +1,8 @@
 LINK WEB : https://ffaawwaazz.github.io/ETS-PWEB/
 
+Rafif Fawwaz Kartika - 5054231009
+Dimas Ahmad Satrio Wicaksana - 5054231015
+
 # ETS-PWEB
 
 # Open Recruitment Panitia HUT RI 80 - Surabaya
